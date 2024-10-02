@@ -28,7 +28,7 @@ const Chat = () => {
             <h2>Chat with ChromaAI</h2>
             <div className="chat-box">
             <div className="bot-message"></div>
-            <div className="bot-message"><span>Chroma:</span> There is no "IIIT Maharashtra". It's possible you're thinking of: Indian Institute of Information Technology, Pune (IIIT Pune): This is a premier institute for information technology located in Pune, Maharashtra. An upcoming IIIT in Maharashtra: There are plans to establish new IIITs in various states, and Maharashtra might be one of them. However, there is no official confirmation or announcement yet.\n\nCould you please clarify your query? </div>
+            <div className="bot-message"><span>Chroma:</span>Okay, let's get you the perfect laptop!  I'll ask you some questions to understand your needs better. Don't worry, it's all one question at a time. Let's begin: 1. What will you primarily use the laptop for?(e.g., web browsing, gaming, programming, graphic design, schoolwork, etc.)</div>
                 {responses.map((resp, index) => (
                     <div key={index} className="message">
                         <div className="user-message">You: {resp.user}</div>

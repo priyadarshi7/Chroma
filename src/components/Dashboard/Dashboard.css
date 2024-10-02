@@ -1,0 +1,52 @@
+.dashboard-container {
+    padding: 20px;
+    width:40%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .dashboard-item {
+    padding: 15px;
+    background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Chroma;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: Chroma;
+  }
+  
+  p {
+    font-size: 1em;
+    margin: 0;
+    color: white;
+    font-family: Chroma;
+  }
+
+  h1{
+    font-family: Chroma;
+  }
+  
+  .dashboard-main{
+    height:100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+  }

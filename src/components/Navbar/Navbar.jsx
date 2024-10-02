@@ -31,7 +31,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        CHROMA
       </Typography>
       <Divider />
       <List>
@@ -71,8 +71,10 @@ function Navbar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <ul style={{display:'flex', justifyContent:"space-between", listStyle:"none", gap:"1.5vh", paddingLeft:"0", fontFamily:"Chroma"}} className='nav-list'>
-              {isAuthenticated?<li><Button sx={{ color: "white"}} onClick={e=>logout()}>LOGOUT</Button></li>:
-              <li><Button sx={{ color: "white"}} onClick={e=>loginWithRedirect()}>LOGIN</Button></li>}
+          <NavLink to="/"><li><Button sx={{ color: "white"}}>HOME</Button></li></NavLink>
+          <NavLink to="/dashboard">{isAuthenticated &&<li><Button sx={{ color: "white"}}>DASHBOARD</Button></li>}</NavLink>
+          <NavLink to="/chat"><li><Button sx={{ color: "white"}}>CHROMA AI</Button></li></NavLink>
+              {isAuthenticated?<li><Button sx={{ color: "white"}} onClick={e=>logout()}>LOGOUT</Button></li>:<li><Button sx={{ color: "white"}} onClick={e=>loginWithRedirect()}>LOGIN</Button></li>}
             </ul>
           </Box>
         </Toolbar>

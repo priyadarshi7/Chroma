@@ -1,6 +1,8 @@
 import React from "react"
 import CLOUDS from "vanta/src/vanta.clouds"
 import "./Home.css"
+import Marquee from "../../components/Marquee/Marquee";
+import Marquees from "../../components/Marquee/Marquee";
 
 export default function Home(){
     React.useEffect(()=>{
