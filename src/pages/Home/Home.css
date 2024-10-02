@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Chroma;
+    src: url('../../assets/Fonts/Domine-VariableFont_wght.ttf');
+}
+.home{
+    height:100svh;
+}
+
+.bg{
+    height:100svh;
+}
+
+.home-main{
+    height:100svh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-main h1{
+    font-family: Chroma;
+    font-size: 80px;
+    margin: 0;
+}
+
+.home-main h2{
+    font-family: Chroma;
+    font-size: 20px;
+}

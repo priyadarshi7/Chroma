@@ -1,0 +1,145 @@
+.chat-main{
+    height:100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.chat-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    margin-top: 60px;
+}
+
+
+.chat-container h2{
+    color: white;
+    font-family:Chroma ;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.send-button {
+    width: 20%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chat-box {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.bot-message {
+    margin-left: 10px;
+    color: #333;
+}
+
+.message span{
+    color: black;
+    font-weight: 600;
+}
+
+.bot-message span{
+    color: black;
+    font-weight: 600;
+}
+/* From Uiverse.io by AlimurtuzaCodes */ 
+.btn {
+    border: none;
+    height:5rem;
+    width: 15rem;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #1C1A1C;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
+
+  /* From Uiverse.io by anniekoop */ 
+.input {
+    font-family: "SF Pro";
+    padding: 0.875rem;
+    font-size: 20px;
+    border: 1.5px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 2.5px 3px 0 #000;
+    outline: none;
+    transition: ease 0.25s;
+
+  }
+  
+  .input:focus {
+    box-shadow: 5.5px 7px 0 black;
+  }
+
+  .bg{
+    height:100svh;
+}
+  
